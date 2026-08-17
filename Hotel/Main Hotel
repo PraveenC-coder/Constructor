@@ -1,0 +1,10 @@
+package com.company.project;
+
+public class MainBiriyani {
+	
+	public static void main(String [] args) {
+		Biriyani b1=Hotel.cookBiriyani();
+		Hotel.showBiriyani(b1);
+	}
+
+}
