@@ -1,0 +1,21 @@
+package com.company.project;
+
+public class MainAccount {
+	
+	public static void main (String[] args) {
+	
+	Account a1= Bank.createAccount();
+	System.out.println("___________________________________________________");
+
+	Bank.displayAccountInfo(a1);
+	System.out.println("___________________________________________________");
+
+	Account a2= Bank.createAccount();
+	System.out.println("___________________________________________________");
+
+	Bank.displayAccountInfo(a2);
+	System.out.println("___________________________________________________");
+
+	}
+
+}
