@@ -1,0 +1,20 @@
+package com.company.project;
+import java.util.Scanner;
+public class Hotel {
+
+	static void showBiriyani(Biriyani b) {
+		if(b!= null) {
+			System.out.println("Quantity : "+b.qty);
+			System.out.println("price : "+b.price);
+		}
+	}
+	static Biriyani cookBiriyani() {
+		Scanner scn = new Scanner(System.in);
+		System.out.println("quantity :");
+		int qty=scn.nextInt();
+		System.out.println("price : ");
+		double price=scn.nextDouble();
+		return new Biriyani(qty,price);
+	}
+	
+}
