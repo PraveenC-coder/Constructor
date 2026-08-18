@@ -1,0 +1,36 @@
+package com.company.project;
+
+import java.util.Scanner;
+
+public class StudentInfo {
+	
+	static void StudentInfromation(Student s) {
+		
+		System.out.println("SID  :"+ s.sid);
+		System.out.println("NAME  :"+ s.name);
+		{
+		if(s.age<20 && s.age>1 ) {
+			System.out.println("AGE  :"+s.age);
+		}
+		else {
+			System.out.println("invalid age");
+		}
+		System.out.println("____________________________________________");
+		}
+		
+	}
+	static Student createStudent() {
+		
+		Scanner scn = new Scanner(System.in);
+		System.out.print("Enter id   : ");
+		int sid = scn.nextInt();
+		System.out.print("Enter name  :");
+		String name = scn.next();
+		System.out.print("Enter age  :");
+		int age = scn.nextInt();
+		System.out.println(" ");
+		return new Student(sid,name,age);
+		
+	}
+
+}
