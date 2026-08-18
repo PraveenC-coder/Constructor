@@ -1,0 +1,56 @@
+package com.company.project;
+
+public class Students {
+	private int s_id;
+	private String name;
+	private double percentage;
+	private int age;
+	
+	public void setS_id(int s_id)
+	{
+		this.s_id=s_id;
+	}
+	public void setName(String name) {
+		this.name=name;
+	}
+	public void setpercentage(double percentage) {
+		
+		if(percentage>=1 && percentage<=100) {
+			this.percentage=percentage;
+		}
+		
+			else {
+				System.out.println("invalid percentage");
+			}
+
+	}
+	public void setage(int age)
+	{
+		if(age<30  && age>16) {
+			this.age=age;
+		}
+		else {
+			System.out.println("invalid age");
+			
+		}
+	}
+	public int gets_id()
+	{
+		return this.s_id;
+		
+	}
+	public String getname()
+	{
+		return this.name;
+	}
+	public double getpercentage()
+	{
+		return this.percentage;
+		
+	}
+	public int getage()
+	{
+		return this.age;
+	}
+
+}
