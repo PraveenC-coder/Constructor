@@ -1,0 +1,14 @@
+package com.company.project;
+
+public class MainProduct {
+	public static void main(String [] args) {
+		Mobile m=new Mobile();
+		Flipcart.addtokart(m);
+		
+		Television t=new Television();
+		Flipcart.addtokart(t);
+		
+		Refrigerator r=new Refrigerator();
+		Flipcart.addtokart(r);
+	}
+}
