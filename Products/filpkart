@@ -1,0 +1,10 @@
+package com.company.project;
+
+public class Flipcart {
+
+	static void addtokart(Product p) {
+		if(p!=null) {
+			System.out.println("Product added");
+		}
+	}
+}
