@@ -1,0 +1,23 @@
+package com.company.project;
+
+public class MainPlayer {
+	public static void main(String [] args) {
+		
+		Player p1= Cricket.createName();
+		Cricket.playerjerseynumber(p1);
+		System.out.println("____________________________________________");
+		
+		Player p2= Cricket.createName();
+		Cricket.playerjerseynumber(p2);
+		System.out.println("____________________________________________");
+		
+		Player p3= Cricket.createName();
+		Cricket.playerjerseynumber(p3);
+		System.out.println("____________________________________________");
+		
+		Player p4= Cricket.createName();
+		Cricket.playerjerseynumber(p4);
+		System.out.println("____________________________________________");
+	}
+
+}
