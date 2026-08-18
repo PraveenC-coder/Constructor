@@ -1,0 +1,19 @@
+package com.company.project;
+
+public class MainStudent {
+	
+	public static void main(String[] args) {
+		Student s1 = StudentInfo.createStudent();
+		StudentInfo.StudentInfromation(s1);
+		
+		Student s2 = StudentInfo.createStudent();
+		StudentInfo.StudentInfromation(s2);
+		
+		Student s3 = StudentInfo.createStudent();
+		StudentInfo.StudentInfromation(s3);
+		
+		Student s4 = StudentInfo.createStudent();
+		StudentInfo.StudentInfromation(s4);
+	}
+
+}
