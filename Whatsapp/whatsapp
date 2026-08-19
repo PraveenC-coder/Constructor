@@ -1,0 +1,23 @@
+package com.company.project;
+
+public class whatsapp1 {
+		
+		void chat() {
+			System.out.println("praveen");
+			}
+}
+class whatsapppro extends whatsapp1{
+	
+	void status() {
+		System.out.println("chinna");
+	}
+}
+
+class whatsappplus extends whatsapppro{
+	void videocall() {
+		System.out.println("prasath");
+	}
+	void voicecall() {
+		System.out.println("sanjay");
+	}
+}
